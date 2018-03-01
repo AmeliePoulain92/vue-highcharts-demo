@@ -45,7 +45,7 @@ export default{
             },
             labels: {
               formatter () {
-                () => this.value + `°`;
+                return this.value + `°`;
               }
             }
           },
